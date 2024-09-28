@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: rgb(48, 126, 120);
+    font-size: 40px;
+}
+#calculator{
+    width: 20%;
+   margin: auto;
+   padding: 40px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   background-color: white;
+}
+.display{
+    width: 250px;
+    height: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+   }
+.keyboard > div {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+   }
+   .keyboard > .op{
+    background-color: black;
+    color: white;
+   }
+   .keyboard > .c{
+    background-color: red;
+    color: white;
+   }
